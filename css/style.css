@@ -1,5 +1,32 @@
 .jumbotron {
-    background-image: url(../images/B&W\ \(1\).jpg);
+    background-image: url(../images/DSC_5725.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+#bannerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.473);
+    align-self: center;
+}
+#bannerText p {
+    display: inline-flex;
+    padding: 10px;
+}
+#bannerText h1 {
+    display: flex;
+    padding-right: 20px;
+}
+.flexContainer {
+    display: flexbox;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.flexItem {
+    display: flex;
+    justify-content: center;
 }
