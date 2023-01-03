@@ -11,41 +11,86 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">KK</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Resume</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">Contact</a>
-          </div>
-        </div>
-      </nav>
-</header>
-<body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container" id="bannerText">
-          <h1 class="display-4">Keanu.Knighton</h1>
-          <p class="lead"><h5>Photographer, Developer, Creative</h5></p>
+<section>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">KK</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </div>
       </div>
-    <section class="About">
-        <div class="flexContainer">
-            <div class="flexItem" id="aboutTitle"><h3>About</h3>
-            </div>
-            <div class="flexItem" id="aboutImage">
-                <img src="" alt="Profile Image">
-            </div>
-            <div class="flexItem" id="aboutBody">
-              <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-            </div>
+  </nav>
+</section>
+</head>
+
+<body>
+  <!-- jumbotron -->
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" id="bannerText">
+          <h2 class="display-4">Keanu.Knighton</h2>
+          <p class="lead"><h6>Photographer, Developer, Creative</h6></p>
+        </div>
+   </div>
+<br><br>
+   <!-- About/Resume -->
+
+    <section class="About" id="about">
+        <div class="row d-flex">
+          <div class="card col-lg-6 col-sm-12" style="width: 18rem;">
+            <img src="images/IMG_20201208_082406_563.jpg" class="card-img" alt="Profile Picture">
+          </div>
+          <div class="card col-lg-6 col-sm-12" style="width: 18rem;" id="aboutText">
+            <p>Editorial Photography at Falmouth University, UK. Class of 2019.</p> 
+            <p>Since graduating, I have consistently been shooting both Portrait and Music events with as freelance work alongside my fulltime job. My passion lies in creative endeavours and I have always sought out different mediums that allow me to follow this; during my time studying I was heavily involved in promoting and organsing nightlife events via a start-up collective. Upon graduating I've been living in London and photographing a range of portrait subjects and music events / artists - though sadly it has remained a side job and passion venture for a number of years. But now, in the early months of learning to program and build websites and apps I am excited to apply my skills and background to future creative projects and work be it personal or professional.</p>
+          </div>
         </div>
     </section>
+<br><br><br>
+  <!-- My Work -->
+
+    <section class="container" id="portfolio">
+      <div class="row d-flex justify-content-around">
+        <h3>My Work</h3>
+    </div>
+    <div class="row justify-content-between text-center mt-8">
+  <!-- Portfolio Cards -->
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="images/B&W (4).jpg" class="card-img-top" alt="Black and white portrait image, female model">
+        <div class="card-body">
+          <h5>Photography</h5>
+          <p class="card-text">Buidling from my studies in Editorial Photography I have since worked freelance shooting Portraits and Music Events, working with names such as Chris Janson, RizzyB and Keith Waithe. </p>
+        </div>
+        <a href="https://www.keanuknighton.uk/">Explore my work</a>
+      </div>
+
+      <div class="card mx-auto" style="width: 18rem;">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fwhatsonthebside%2Fposts%2Fpfbid02WYamAvQVyjokHBomqiJ86NCRZjXDaKvgBYZ82DC28TTZ6D9vtgF21cK3f9Ht97jhl&show_text=false&width=500" class="card-img-top" width="500" height="180" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>  
+        <div class="card-body">
+          <h5>Event Promotion</h5>
+          <p class="card-text">The B-Side Collective was a ground-up project I started with two of my university peers. We aimed to build an events collective with a focus on new and upcoming talent in the electronic music scene - using our photographic backgrounds we leaned heavily on editorial style introductions for artists, and did well for a number of years until Covid-19. What's left now is legacy and good memories.</p>
+        </div>
+        <a href="https://www.instagram.com/bside_collective/">See what we got up to</a>
+      </div>
+      
+      <div class="card mx-auto" style="width: 18rem;">
+        <img src="https://us.123rf.com/450wm/vladgrin/vladgrin1902/vladgrin190200077/vladgrin190200077.jpg?ver=6" class="card-img-top" alt="Multiple devices, digital drawing image">
+        <div class="card-body">
+          <h5>Web Development</h5>
+          <p class="card-text">I've recently began a new venture into the worl of Web Development - embarking on a crash course to further my learning. Im unsure where this path will take me but I am excited by the possibilities made available via a skill such as this. I hope to continue creating as have always done.</p>
+        </div>
+        <a href="https://github.com/MoxyK">Follow my progress</a>
+      </div>
+      
+    </div>
+    </section>
 </body>
+
+<footer></footer>
 </html>

@@ -3,7 +3,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 650px;
+    
 }
 #bannerText {
     display: flex;
@@ -11,6 +12,7 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.473);
     align-self: center;
+    margin-top: 200px;
 }
 #bannerText p {
     display: inline-flex;
@@ -29,4 +31,9 @@
 .flexItem {
     display: flex;
     justify-content: center;
+}
+#aboutText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
